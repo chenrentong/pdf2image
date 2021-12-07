@@ -1,0 +1,120 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>cn.aimengmeng.tool</groupId>
+  <artifactId>pdf</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>1.5.9.RELEASE</version>
+  </parent>
+  
+  <dependencies>
+	<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+        <exclusions>
+            <exclusion>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-logging</artifactId>
+            </exclusion>
+        </exclusions>
+	    </dependency>
+		<!-- 自动更新 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency>
+		
+	 	<!-- SpringBoot web 组件 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<!-- log4j2依赖 -->
+		<dependency>
+	           <groupId>org.springframework.boot</groupId>
+	           <artifactId>spring-boot-starter-log4j2</artifactId>
+	       </dependency>
+		
+		<!-- json依赖 -->
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		</dependency>
+		
+		<!-- aop依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.icepdf.os</groupId>
+		    <artifactId>icepdf-core</artifactId>
+		    <version>6.3.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.icepdf.os</groupId>
+		    <artifactId>icepdf-viewer</artifactId>
+		    <version>6.3.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.icepdf.os</groupId>
+		    <artifactId>icepdf-pro</artifactId>
+		    <version>6.3.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.icepdf.os</groupId>
+		    <artifactId>icepdf-pro-intl</artifactId>
+		     <version>6.3.0</version>
+		</dependency>
+		
+		
+		<dependency>
+		    <groupId>org.apache.pdfbox</groupId>
+		    <artifactId>pdfbox</artifactId>
+		    <version>2.0.7</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				  <configuration>
+        <mainClass>cn.aimengmeng.tool.pdf.app.App</mainClass>
+        <layout>ZIP</layout>
+      </configuration>
+      <executions>
+        <execution>
+          <goals>
+            <goal>repackage</goal>
+          </goals>
+        </execution>
+      </executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

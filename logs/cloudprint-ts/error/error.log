@@ -1,0 +1,36 @@
+2018-08-09 18:41:05 ERROR [IcePdfServiceImpl.java:132] - Failed to create directory
+2018-08-09 18:41:21 ERROR [IcePdfServiceImpl.java:132] - Failed to create directory
+2018-08-09 18:42:10 ERROR [IcePdfServiceImpl.java:132] - Failed to create directory
+2018-08-09 18:42:41 ERROR [IcePdfServiceImpl.java:132] - Failed to create directory
+2018-08-09 18:43:21 ERROR [IcePdfServiceImpl.java:132] - Failed to create directory
+2018-08-09 18:44:40 ERROR [IcePdfServiceImpl.java:133] - Failed to create directory
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 ERROR [null:-1] - Error reading cmap file.
+java.lang.IllegalStateException:  vs ÿÿ
+	at icepdf.a.<init>(Unknown Source) ~[icepdf-pro-6.3.0.jar:?]
+	at icepdf.a.<init>(Unknown Source) ~[icepdf-pro-6.3.0.jar:?]
+	at icepdf.k.init(Unknown Source) [icepdf-pro-6.3.0.jar:?]
+	at org.icepdf.core.pobjects.Resources.getFont(Unknown Source) [icepdf-core-6.3.0.jar:?]
+	at org.icepdf.core.util.content.AbstractContentParser.consume_Tf(Unknown Source) [icepdf-core-6.3.0.jar:?]
+	at org.icepdf.core.util.content.c.a(Unknown Source) [icepdf-pro-6.3.0.jar:?]
+	at org.icepdf.core.util.content.c.parse(Unknown Source) [icepdf-pro-6.3.0.jar:?]
+	at org.icepdf.core.pobjects.Page.init(Unknown Source) [icepdf-core-6.3.0.jar:?]
+	at cn.aimengmeng.tool.pdf.service.impl.IcePdfServiceImpl$CapturePage.call(IcePdfServiceImpl.java:160) [classes/:?]
+	at cn.aimengmeng.tool.pdf.service.impl.IcePdfServiceImpl$CapturePage.call(IcePdfServiceImpl.java:1) [classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-09 18:45:15 WARN [null:-1] - Error during decode falling back on alternative fax decode.

@@ -1,0 +1,2 @@
+2018-08-07 00:00:07 WARN [AbstractHandlerExceptionResolver.java:189] - Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------687405269394493423860548;charset=UTF-8' not supported
+2018-08-07 00:00:07 WARN [AbstractHandlerExceptionResolver.java:189] - Resolved exception caused by Handler execution: org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation

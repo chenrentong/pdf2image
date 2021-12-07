@@ -1,0 +1,892 @@
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:05:03 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:12:59 WARN [PDCIDFontType2.java:141] - Could not read embedded OTF for font AAVFZF+MicrosoftYaHei-Bold
+java.io.IOException: Error:TTF.loca unknown offset format.
+	at org.apache.fontbox.ttf.IndexToLocationTable.read(IndexToLocationTable.java:67) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.readTable(TrueTypeFont.java:335) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getTable(TrueTypeFont.java:139) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getIndexToLocation(TrueTypeFont.java:229) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.GlyphTable.read(GlyphTable.java:67) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.readTable(TrueTypeFont.java:335) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parseTables(TTFParser.java:174) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:150) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:79) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:27) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:106) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:73) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDCIDFontType2.<init>(PDCIDFontType2.java:117) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDCIDFontType2.<init>(PDCIDFontType2.java:69) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createDescendantFont(PDFontFactory.java:125) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDType0Font.<init>(PDType0Font.java:129) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(PDFontFactory.java:83) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.PDResources.getFont(PDResources.java:143) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.operator.text.SetFontAndSize.process(SetFontAndSize.java:60) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:838) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:495) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:469) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:150) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PageDrawer.drawPage(PageDrawer.java:206) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PDFRenderer.renderImage(PDFRenderer.java:145) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PDFRenderer.renderImageWithDPI(PDFRenderer.java:94) [pdfbox-2.0.7.jar:2.0.7]
+	at cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl$CapturePage.call(PdfBoxServiceImpl.java:111) [classes/:?]
+	at cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl$CapturePage.call(PdfBoxServiceImpl.java:1) [classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-08-07 23:12:59 ERROR [GlyfCompositeDescript.java:215] - getGlypDescription(32) is null, returning 0
+2018-08-07 23:12:59 ERROR [GlyfCompositeDescript.java:215] - getGlypDescription(32) is null, returning 0
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:43] - ************************异常开始*******************************
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:45] - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@1a8411c0
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:46] - 请求url : http://127.0.0.1:18088/pdf/pdfBoxToImage
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:48] - 请求方法: POST
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:50] - Content-Type:multipart/form-data; boundary=----WebKitFormBoundaryGBO6vMnMeSAECgfB
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:55] - 参数:convertType,值:1
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:59] - 错误信息:java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 2049
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - java.util.concurrent.FutureTask.report(FutureTask.java:122)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - java.util.concurrent.FutureTask.get(FutureTask.java:192)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl.capturePages(PdfBoxServiceImpl.java:75)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(TranslateController.java:105)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.controller.TranslateController$$FastClassBySpringCGLIB$$d81b4969.invoke(<generated>)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.controller.TranslateController$$EnhancerBySpringCGLIB$$af67a16f.pdfBoxToImage(<generated>)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - java.lang.reflect.Method.invoke(Method.java:498)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.filter.myCORSFilter.doFilter(myCORSFilter.java:32)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:63] - java.lang.Thread.run(Thread.java:748)
+2018-08-07 23:13:00 ERROR [ServerErrorController.java:65] - ************************异常结束*******************************
+2018-08-07 23:13:00 WARN [AbstractHandlerExceptionResolver.java:189] - Resolved exception caused by Handler execution: java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 2049
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:06 WARN [null:-1] - Error during decode falling back on alternative fax decode.
+2018-08-07 23:15:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:29 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:32 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:33 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:34 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:36 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:37 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:38 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:38 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:38 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:38 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:15:38 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:20:46 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:46 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:48 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:49 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:49 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:49 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:49 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:50 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:51 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:52 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Apache JBIG2 library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:20:53 WARN [null:-1] - Could not find Levigo library on class path.
+2018-08-07 23:22:51 ERROR [DirectJDKLog.java:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (16252968) exceeds the configured maximum (10485760)] with root cause
+org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (16252968) exceeds the configured maximum (10485760)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase$FileItemIteratorImpl.<init>(FileUploadBase.java:805) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2864) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3211) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1137) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:75) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-08-07 23:22:52 ERROR [DirectJDKLog.java:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (16252968) exceeds the configured maximum (10485760)] with root cause
+org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (16252968) exceeds the configured maximum (10485760)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase$FileItemIteratorImpl.<init>(FileUploadBase.java:805) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2864) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3211) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1137) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:75) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-08-07 23:23:17 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:20 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:22 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:22 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:22 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:22 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:22 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:22 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:23 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:24 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:25 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:26 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:27 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:28 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:30 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:31 ERROR [PDFStreamEngine.java:875] - Cannot read JBIG2 image: jbig2-imageio is not installed
+2018-08-07 23:23:32 WARN [FlateFilter.java:114] - FlateFilter: premature end of stream due to a DataFormatException
+2018-08-07 23:23:32 WARN [PDCIDFontType2.java:141] - Could not read embedded OTF for font FBKPBO+FZSSJW--GB1-0
+java.io.EOFException: null
+	at org.apache.fontbox.ttf.MemoryTTFDataStream.readSignedShort(MemoryTTFDataStream.java:138) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFDataStream.read32Fixed(TTFDataStream.java:50) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.HeaderTable.read(HeaderTable.java:76) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.readTable(TrueTypeFont.java:335) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parseTables(TTFParser.java:174) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:150) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:79) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:27) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:106) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:73) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDCIDFontType2.<init>(PDCIDFontType2.java:117) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDCIDFontType2.<init>(PDCIDFontType2.java:69) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createDescendantFont(PDFontFactory.java:125) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDType0Font.<init>(PDType0Font.java:129) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(PDFontFactory.java:83) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.PDResources.getFont(PDResources.java:143) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.operator.text.SetFontAndSize.process(SetFontAndSize.java:60) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:838) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:495) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:469) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:150) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PageDrawer.drawPage(PageDrawer.java:206) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PDFRenderer.renderImage(PDFRenderer.java:145) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PDFRenderer.renderImageWithDPI(PDFRenderer.java:94) [pdfbox-2.0.7.jar:2.0.7]
+	at cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl$CapturePage.call(PdfBoxServiceImpl.java:111) [classes/:?]
+	at cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl$CapturePage.call(PdfBoxServiceImpl.java:1) [classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-08-07 23:23:32 WARN [PDCIDFontType2.java:165] - Using fallback font LiberationSans for CID-keyed TrueType font FBKPBO+FZSSJW--GB1-0
+2018-08-07 23:23:32 WARN [TTFGlyph2D.java:128] - No glyph for 894 (CID 037e) in font FGIEHI+FZSSJW--GB1-0
+2018-08-07 23:23:32 WARN [TTFGlyph2D.java:128] - No glyph for 1689 (CID 0699) in font FGIEHI+FZSSJW--GB1-0
+2018-08-07 23:23:32 WARN [TTFGlyph2D.java:128] - No glyph for 1678 (CID 068e) in font FGIEHI+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 1678 (CID 068e) in font FGIEHI+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 6409 (CID 1909) in font FGIEHI+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [PDCIDFontType2.java:141] - Could not read embedded OTF for font FBKPBO+FZSSJW--GB1-0
+java.io.EOFException: null
+	at org.apache.fontbox.ttf.MemoryTTFDataStream.readUnsignedShort(MemoryTTFDataStream.java:120) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.MaximumProfileTable.read(MaximumProfileTable.java:286) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.readTable(TrueTypeFont.java:335) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getTable(TrueTypeFont.java:139) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getMaximumProfile(TrueTypeFont.java:185) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getNumberOfGlyphs(TrueTypeFont.java:350) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.IndexToLocationTable.read(IndexToLocationTable.java:53) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.readTable(TrueTypeFont.java:335) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getTable(TrueTypeFont.java:139) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.getIndexToLocation(TrueTypeFont.java:229) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.GlyphTable.read(GlyphTable.java:67) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TrueTypeFont.readTable(TrueTypeFont.java:335) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parseTables(TTFParser.java:174) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:150) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:79) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:27) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.TTFParser.parse(TTFParser.java:106) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.fontbox.ttf.OTFParser.parse(OTFParser.java:73) ~[fontbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDCIDFontType2.<init>(PDCIDFontType2.java:117) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDCIDFontType2.<init>(PDCIDFontType2.java:69) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createDescendantFont(PDFontFactory.java:125) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDType0Font.<init>(PDType0Font.java:129) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.font.PDFontFactory.createFont(PDFontFactory.java:83) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.pdmodel.PDResources.getFont(PDResources.java:143) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.operator.text.SetFontAndSize.process(SetFontAndSize.java:60) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processOperator(PDFStreamEngine.java:838) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStreamOperators(PDFStreamEngine.java:495) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processStream(PDFStreamEngine.java:469) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.contentstream.PDFStreamEngine.processPage(PDFStreamEngine.java:150) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PageDrawer.drawPage(PageDrawer.java:206) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PDFRenderer.renderImage(PDFRenderer.java:145) [pdfbox-2.0.7.jar:2.0.7]
+	at org.apache.pdfbox.rendering.PDFRenderer.renderImageWithDPI(PDFRenderer.java:94) [pdfbox-2.0.7.jar:2.0.7]
+	at cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl$CapturePage.call(PdfBoxServiceImpl.java:111) [classes/:?]
+	at cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl$CapturePage.call(PdfBoxServiceImpl.java:1) [classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+2018-08-07 23:23:33 WARN [PDCIDFontType2.java:165] - Using fallback font LiberationSans for CID-keyed TrueType font FBKPBO+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 5705 (CID 1649) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 1689 (CID 0699) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 5941 (CID 1735) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 1322 (CID 052a) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 1689 (CID 0699) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:33 WARN [TTFGlyph2D.java:128] - No glyph for 909 (CID 038d) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 6009 (CID 1779) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 2946 (CID 0b82) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 6010 (CID 177a) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 6010 (CID 177a) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 2307 (CID 0903) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 1887 (CID 075f) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 2972 (CID 0b9c) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 734 (CID 02de) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 6009 (CID 1779) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 2343 (CID 0927) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 1689 (CID 0699) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 4678 (CID 1246) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 3380 (CID 0d34) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 3380 (CID 0d34) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 1689 (CID 0699) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 4361 (CID 1109) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 3242 (CID 0caa) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 3380 (CID 0d34) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:34 WARN [TTFGlyph2D.java:128] - No glyph for 3169 (CID 0c61) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 3046 (CID 0be6) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 2343 (CID 0927) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 2345 (CID 0929) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 3112 (CID 0c28) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 6408 (CID 1908) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 4216 (CID 1078) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 1333 (CID 0535) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:35 WARN [TTFGlyph2D.java:128] - No glyph for 2653 (CID 0a5d) in font AILAAH+FZSSJW--GB1-0
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:43] - ************************异常开始*******************************
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:45] - org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@7aa76e07
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:46] - 请求url : http://127.0.0.1:18088/pdf/pdfBoxToImage
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:48] - 请求方法: POST
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:50] - Content-Type:multipart/form-data; boundary=----WebKitFormBoundaryJiTiVmzA03iOqmQp
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:55] - 参数:convertType,值:1
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:59] - 错误信息:java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 5912
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - java.util.concurrent.FutureTask.report(FutureTask.java:122)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - java.util.concurrent.FutureTask.get(FutureTask.java:192)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.service.impl.PdfBoxServiceImpl.capturePages(PdfBoxServiceImpl.java:75)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(TranslateController.java:105)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.controller.TranslateController$$FastClassBySpringCGLIB$$d81b4969.invoke(<generated>)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.controller.TranslateController$$EnhancerBySpringCGLIB$$cce0d358.pdfBoxToImage(<generated>)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - java.lang.reflect.Method.invoke(Method.java:498)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - cn.aimengmeng.tool.pdf.filter.myCORSFilter.doFilter(myCORSFilter.java:32)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:63] - java.lang.Thread.run(Thread.java:748)
+2018-08-07 23:23:38 ERROR [ServerErrorController.java:65] - ************************异常结束*******************************
+2018-08-07 23:23:38 WARN [AbstractHandlerExceptionResolver.java:189] - Resolved exception caused by Handler execution: java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 5912
+2018-08-07 23:23:54 ERROR [DirectJDKLog.java:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Could not parse multipart servlet request; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (16252968) exceeds the configured maximum (10485760)] with root cause
+org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException: the request was rejected because its size (16252968) exceeds the configured maximum (10485760)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase$FileItemIteratorImpl.<init>(FileUploadBase.java:805) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.getItemIterator(FileUploadBase.java:256) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:280) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2864) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3211) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Request.getParameter(Request.java:1137) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.RequestFacade.getParameter(RequestFacade.java:381) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:75) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]

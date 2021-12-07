@@ -1,0 +1,323 @@
+2018-08-07 22:00:40 INFO [DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-07 22:00:40 INFO [FrameworkServlet.java:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-07 22:00:40 INFO [FrameworkServlet.java:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+2018-08-07 22:22:32 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:22:32 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:22:32 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:22:32 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:22:32 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:22:32 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-07 22:22:32 INFO [IcePdfServiceImpl.java:172] - Capturing page 1
+2018-08-07 22:22:32 INFO [IcePdfServiceImpl.java:172] - Capturing page 2
+2018-08-07 22:22:32 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-07 22:22:32 INFO [IcePdfServiceImpl.java:125] - elapsed time: 0 秒
+2018-08-07 22:22:32 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:22:32 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:23:53 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:23:53 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:23:53 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:23:53 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:23:53 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:23:53 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:23:53 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:23:58 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:23:58 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:23:58 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:23:58 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:23:58 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:23:58 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:23:58 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:24:41 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:24:41 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:24:41 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:24:41 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:24:41 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:24:41 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:24:41 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:25:48 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:25:48 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:25:48 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:25:48 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:25:48 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:25:48 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:25:48 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:26:44 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:26:44 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:26:44 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:26:44 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:26:44 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:26:44 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:26:44 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:27:13 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:27:13 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:27:13 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:27:13 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:27:13 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:27:13 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:27:13 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:27:56 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:27:56 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:27:56 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:27:56 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:27:56 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:27:56 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:27:56 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:28:50 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:28:50 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:28:50 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:28:50 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:28:50 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:28:50 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:28:50 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:29:08 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:29:08 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:29:08 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:29:08 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:29:08 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:29:08 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:29:08 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:29:54 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:29:54 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:29:54 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:29:54 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:29:54 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:29:54 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:29:54 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:31:09 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:31:09 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:31:09 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:31:09 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:31:09 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:31:09 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:31:09 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:31:22 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:31:22 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:31:22 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:31:22 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:31:22 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:31:22 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:31:22 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:31:50 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:31:50 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:31:50 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:31:50 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:31:50 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:31:50 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:31:50 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:32:11 INFO [ScheduledTasks.java:73] - 文件删除成功:c1528d68-e9d2-4a8c-a8a6-e3bdad9f3f5a
+2018-08-07 22:32:11 INFO [ScheduledTasks.java:86] - 删除缓存:172121988e416c8829e91a0d286da666-icepdf
+2018-08-07 22:32:58 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:32:58 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:32:58 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:32:58 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:32:58 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:32:58 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-07 22:32:58 INFO [IcePdfServiceImpl.java:172] - Capturing page 1
+2018-08-07 22:32:58 INFO [IcePdfServiceImpl.java:172] - Capturing page 2
+2018-08-07 22:32:58 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-07 22:32:58 INFO [IcePdfServiceImpl.java:125] - elapsed time: 0 秒
+2018-08-07 22:32:58 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:32:58 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:33:42 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:33:42 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:33:42 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:33:42 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:33:42 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:33:42 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:33:42 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:35:30 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:35:30 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:35:30 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:35:30 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:35:30 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:35:30 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:35:30 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:36:33 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:36:33 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:36:33 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:36:33 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:36:33 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:36:33 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:36:33 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:37:56 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:37:56 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:37:56 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:37:56 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:37:56 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:37:56 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:37:56 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:38:29 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:38:29 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:38:29 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:38:29 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:38:29 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:38:29 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:38:29 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:39:52 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:39:52 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:39:52 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:39:52 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:39:52 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:39:52 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:39:52 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:41:17 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:41:17 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:41:17 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:41:17 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:41:17 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:41:17 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:41:17 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:41:21 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:41:21 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:41:21 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:41:21 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:41:21 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:41:21 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/14b29346-f0d3-45c6-9cc2-ee489cfb9e5b","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:41:21 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:42:11 INFO [ScheduledTasks.java:73] - 文件删除成功:14b29346-f0d3-45c6-9cc2-ee489cfb9e5b
+2018-08-07 22:42:11 INFO [ScheduledTasks.java:86] - 删除缓存:172121988e416c8829e91a0d286da666-icepdf
+2018-08-07 22:42:31 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:42:31 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:42:31 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:42:31 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:42:31 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:42:31 INFO [IcePdfServiceImpl.java:172] - Capturing page 1
+2018-08-07 22:42:31 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-07 22:42:31 INFO [IcePdfServiceImpl.java:172] - Capturing page 2
+2018-08-07 22:42:31 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-07 22:42:31 INFO [IcePdfServiceImpl.java:125] - elapsed time: 0 秒
+2018-08-07 22:42:31 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:42:31 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:43:21 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:43:21 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:43:21 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:43:21 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:43:21 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:43:21 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:43:21 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:43:24 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:43:24 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:43:24 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:43:24 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:43:24 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:43:24 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:43:25 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:44:01 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:44:01 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:44:01 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:44:01 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:44:01 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:44:01 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:44:01 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:44:26 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:44:26 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:44:26 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:44:26 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:44:26 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:44:26 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:44:26 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:45:28 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:45:28 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:45:28 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:45:28 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:45:28 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:45:28 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:45:28 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:45:31 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:45:31 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:45:31 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:45:31 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:45:31 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:45:31 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:45:31 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:46:19 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:46:19 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:46:19 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:46:19 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:46:19 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:46:19 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:46:19 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:47:00 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:47:00 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:47:00 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:47:00 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:47:00 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:47:00 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:47:00 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:47:06 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:47:06 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:47:06 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:47:06 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:47:06 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:47:06 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:47:06 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:47:11 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:47:11 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:47:11 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:47:11 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:47:11 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:47:11 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:47:11 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:47:14 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:47:14 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:47:14 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:47:14 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:47:14 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:47:14 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:47:14 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:47:17 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:47:17 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:47:17 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:47:17 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:47:17 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:47:17 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:47:17 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:47:58 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:47:58 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:47:58 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:47:58 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:47:58 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:47:58 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:47:58 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:50:15 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:50:15 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:50:15 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:50:15 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:50:15 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:50:15 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/b1b8ab0c-10ee-4126-8236-18ec09a9f3ec","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:50:15 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:52:11 INFO [ScheduledTasks.java:73] - 文件删除成功:b1b8ab0c-10ee-4126-8236-18ec09a9f3ec
+2018-08-07 22:52:11 INFO [ScheduledTasks.java:86] - 删除缓存:172121988e416c8829e91a0d286da666-icepdf
+2018-08-07 22:53:21 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:53:21 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:53:21 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:53:21 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:53:21 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:53:22 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-07 22:53:22 INFO [IcePdfServiceImpl.java:172] - Capturing page 1
+2018-08-07 22:53:22 INFO [IcePdfServiceImpl.java:172] - Capturing page 2
+2018-08-07 22:53:22 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-07 22:53:22 INFO [IcePdfServiceImpl.java:125] - elapsed time: 0 秒
+2018-08-07 22:53:22 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/d1590b5d-713d-4457-bf4d-c77b88a0fc46","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:53:22 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:53:52 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:53:52 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:53:52 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:53:52 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:53:52 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:53:52 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/d1590b5d-713d-4457-bf4d-c77b88a0fc46","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:53:52 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:55:03 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:55:03 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:55:03 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:55:03 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:55:03 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:55:03 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/d1590b5d-713d-4457-bf4d-c77b88a0fc46","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:55:03 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-07 22:59:51 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-07 22:59:51 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-07 22:59:51 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-07 22:59:51 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-07 22:59:51 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-07 22:59:51 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/d1590b5d-713d-4457-bf4d-c77b88a0fc46","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-07 22:59:51 INFO [WebLogAspect.java:60] - ************************请求结束*******************************

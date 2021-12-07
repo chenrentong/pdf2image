@@ -1,0 +1,127 @@
+2018-08-08 18:10:45 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 9128 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-08 18:10:45 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-08 18:10:46 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b15e770: startup date [Wed Aug 08 18:10:46 CST 2018]; root of context hierarchy
+2018-08-08 18:10:46 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-08 18:10:47 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-08 18:10:47 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-08 18:10:47 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-08 18:10:47 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-08 18:10:47 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1901 ms
+2018-08-08 18:10:48 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-08 18:10:48 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-08 18:10:48 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-08 18:10:48 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-08 18:10:48 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-08 18:10:48 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-08 18:10:48 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b15e770: startup date [Wed Aug 08 18:10:46 CST 2018]; root of context hierarchy
+2018-08-08 18:10:48 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-08 18:10:48 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-08 18:10:48 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-08 18:10:48 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-08 18:10:48 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-08 18:10:48 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-08 18:10:48 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-08 18:10:48 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-08 18:10:48 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-08 18:10:48 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-08 18:10:48 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-08 18:10:48 INFO [null:-1] - ICEsoft ICEpdf Core @version@-@type@
+2018-08-08 18:10:49 INFO [null:-1] - ICEsoft ICEpdf Pro 6.3.0
+2018-08-08 18:10:49 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-08 18:10:50 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-08 18:10:50 INFO [IcePdfServiceImpl.java:125] - elapsed time: 1 秒
+2018-08-08 18:10:50 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-08 18:10:50 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-08 18:10:50 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-08 18:10:50 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-08 18:10:50 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-08 18:10:50 INFO [StartupInfoLogger.java:57] - Started App in 4.591 seconds (JVM running for 5.66)
+2018-08-08 18:10:50 INFO [ScheduledTasks.java:73] - 文件删除成功:52e3d07f-2613-43c9-a3e8-44bb01d750c9
+2018-08-08 18:10:50 INFO [ScheduledTasks.java:73] - 文件删除成功:58a21538-4222-43a3-b109-648f2536f2af
+2018-08-08 18:10:50 INFO [ScheduledTasks.java:73] - 文件删除成功:c78aaf80-b54a-464c-a363-21c2e0c20e4a
+2018-08-08 18:12:24 INFO [DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-08 18:12:24 INFO [FrameworkServlet.java:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-08 18:12:24 INFO [FrameworkServlet.java:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-08-08 18:12:25 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:12:25 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:12:25 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:12:25 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:12:25 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-08 18:12:25 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-08 18:12:25 INFO [IcePdfServiceImpl.java:172] - Capturing page 1
+2018-08-08 18:12:25 INFO [IcePdfServiceImpl.java:172] - Capturing page 2
+2018-08-08 18:12:25 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-08 18:12:25 INFO [IcePdfServiceImpl.java:125] - elapsed time: 0 秒
+2018-08-08 18:12:25 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/76d8c394-4877-45c1-afbe-5eb17577bbd2","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-08 18:12:25 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:13:12 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:13:12 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:13:12 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:13:12 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:13:12 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:13:12 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:14:34 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:14:34 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:14:34 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:14:34 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:14:34 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:14:34 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:15:00 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:15:00 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:15:00 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:15:00 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:15:00 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:15:00 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:15:15 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:15:15 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:15:15 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:15:15 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:15:15 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:15:15 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:15:23 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:15:23 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:15:23 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:15:23 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:15:23 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-08 18:15:23 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/76d8c394-4877-45c1-afbe-5eb17577bbd2","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-08 18:15:23 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:16:46 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:16:46 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:16:46 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:16:46 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:16:46 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-08 18:16:46 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/76d8c394-4877-45c1-afbe-5eb17577bbd2","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-08 18:16:46 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:16:51 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:16:51 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:16:51 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:16:51 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:16:51 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:16:51 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:18:19 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:18:19 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/pdfBoxToImage
+2018-08-08 18:18:19 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:18:19 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:18:19 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:18:19 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:18:38 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:18:38 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/pdfBoxToImage
+2018-08-08 18:18:38 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:18:38 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:18:38 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:18:38 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:19:24 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:19:24 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/pdfBoxToImage
+2018-08-08 18:19:24 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:19:24 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:19:24 INFO [WebLogAspect.java:59] - 返回 : ResultCode [code=1001, errMsg=文件类型不正确]
+2018-08-08 18:19:24 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:20:02 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-08 18:20:02 INFO [WebLogAspect.java:39] - 请求url : http://127.0.0.1:18088/pdf/icePdfToImage
+2018-08-08 18:20:02 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-08 18:20:02 INFO [WebLogAspect.java:51] - 参数:convertType,值:1
+2018-08-08 18:20:02 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-08 18:20:02 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/76d8c394-4877-45c1-afbe-5eb17577bbd2","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-08 18:20:02 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-08 18:20:50 INFO [ScheduledTasks.java:73] - 文件删除成功:76d8c394-4877-45c1-afbe-5eb17577bbd2
+2018-08-08 18:20:50 INFO [ScheduledTasks.java:86] - 删除缓存:172121988e416c8829e91a0d286da666-icepdf

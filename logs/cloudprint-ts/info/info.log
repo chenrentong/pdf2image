@@ -1,0 +1,442 @@
+2018-08-09 18:38:27 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 8944 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:38:27 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:38:27 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:38:27 CST 2018]; root of context hierarchy
+2018-08-09 18:38:27 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:38:28 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:38:28 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:38:28 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:38:28 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:38:28 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1139 ms
+2018-08-09 18:38:28 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:38:28 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:38:28 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:38:28 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:38:28 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:38:28 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:38:29 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:38:27 CST 2018]; root of context hierarchy
+2018-08-09 18:38:29 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:38:29 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:38:29 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:38:29 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:38:29 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:38:29 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:38:29 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:38:29 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:38:29 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:38:29 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:38:29 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:38:29 INFO [null:-1] - ICEsoft ICEpdf Core @version@-@type@
+2018-08-09 18:38:29 INFO [null:-1] - ICEsoft ICEpdf Pro 6.3.0
+2018-08-09 18:38:30 INFO [IcePdfServiceImpl.java:172] - Capturing page 0
+2018-08-09 18:38:30 INFO [IcePdfServiceImpl.java:196] - Document disposed
+2018-08-09 18:38:30 INFO [IcePdfServiceImpl.java:125] - elapsed time: 1 秒
+2018-08-09 18:38:30 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:38:30 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:38:30 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:38:30 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:38:30 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:38:30 INFO [StartupInfoLogger.java:57] - Started App in 3.34 seconds (JVM running for 3.987)
+2018-08-09 18:39:16 INFO [AbstractApplicationContext.java:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:38:27 CST 2018]; root of context hierarchy
+2018-08-09 18:39:16 INFO [MBeanExporter.java:449] - Unregistering JMX-exposed beans on shutdown
+2018-08-09 18:39:16 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 8944 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:39:16 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:39:16 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1437cda1: startup date [Thu Aug 09 18:39:16 CST 2018]; root of context hierarchy
+2018-08-09 18:39:16 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:39:16 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:39:16 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:39:16 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:39:16 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 255 ms
+2018-08-09 18:39:16 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:39:16 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:39:16 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:39:16 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:39:16 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:39:16 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:39:16 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1437cda1: startup date [Thu Aug 09 18:39:16 CST 2018]; root of context hierarchy
+2018-08-09 18:39:16 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:16 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:16 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:16 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:39:16 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:39:16 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:16 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:16 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:39:16 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:16 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:39:16 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:39:16 INFO [IcePdfServiceImpl.java:176] - Capturing page 0
+2018-08-09 18:39:16 INFO [IcePdfServiceImpl.java:200] - Document disposed
+2018-08-09 18:39:16 INFO [IcePdfServiceImpl.java:129] - elapsed time: 0 秒
+2018-08-09 18:39:16 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:39:16 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:39:16 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:39:16 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:39:16 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:39:16 INFO [StartupInfoLogger.java:57] - Started App in 0.661 seconds (JVM running for 50.3)
+2018-08-09 18:39:23 INFO [AbstractApplicationContext.java:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1437cda1: startup date [Thu Aug 09 18:39:16 CST 2018]; root of context hierarchy
+2018-08-09 18:39:23 INFO [MBeanExporter.java:449] - Unregistering JMX-exposed beans on shutdown
+2018-08-09 18:39:23 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 8944 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:39:23 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:39:23 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4113cc97: startup date [Thu Aug 09 18:39:23 CST 2018]; root of context hierarchy
+2018-08-09 18:39:23 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:39:23 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:39:23 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:39:23 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:39:23 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 226 ms
+2018-08-09 18:39:23 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:39:23 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:39:23 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:39:23 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:39:23 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:39:23 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:39:23 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4113cc97: startup date [Thu Aug 09 18:39:23 CST 2018]; root of context hierarchy
+2018-08-09 18:39:23 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:23 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:23 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:23 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:39:23 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:39:23 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:23 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:23 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:39:23 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:23 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:39:23 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:39:23 INFO [IcePdfServiceImpl.java:176] - Capturing page 0
+2018-08-09 18:39:23 INFO [IcePdfServiceImpl.java:200] - Document disposed
+2018-08-09 18:39:23 INFO [IcePdfServiceImpl.java:129] - elapsed time: 0 秒
+2018-08-09 18:39:23 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:39:23 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:39:23 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:39:23 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:39:23 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:39:23 INFO [StartupInfoLogger.java:57] - Started App in 0.571 seconds (JVM running for 57.344)
+2018-08-09 18:39:36 INFO [AbstractApplicationContext.java:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4113cc97: startup date [Thu Aug 09 18:39:23 CST 2018]; root of context hierarchy
+2018-08-09 18:39:36 INFO [MBeanExporter.java:449] - Unregistering JMX-exposed beans on shutdown
+2018-08-09 18:39:36 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 8944 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:39:36 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:39:36 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5646a389: startup date [Thu Aug 09 18:39:36 CST 2018]; root of context hierarchy
+2018-08-09 18:39:36 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:39:36 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:39:36 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:39:36 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:39:36 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 220 ms
+2018-08-09 18:39:36 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:39:36 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:39:36 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:39:36 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:39:36 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:39:36 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:39:36 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5646a389: startup date [Thu Aug 09 18:39:36 CST 2018]; root of context hierarchy
+2018-08-09 18:39:36 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:36 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:36 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:36 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:39:36 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:39:52 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 4052 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:39:52 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:39:52 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b0ade15: startup date [Thu Aug 09 18:39:52 CST 2018]; root of context hierarchy
+2018-08-09 18:39:53 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:39:53 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:39:53 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:39:53 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:39:53 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:39:53 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1064 ms
+2018-08-09 18:39:54 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:39:54 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:39:54 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:39:54 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:39:54 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:39:54 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:39:54 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b0ade15: startup date [Thu Aug 09 18:39:52 CST 2018]; root of context hierarchy
+2018-08-09 18:39:54 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:54 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:54 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:39:54 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:39:54 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:39:54 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:54 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:54 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:39:54 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:39:54 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:39:54 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:39:54 INFO [null:-1] - ICEsoft ICEpdf Core @version@-@type@
+2018-08-09 18:39:54 INFO [null:-1] - ICEsoft ICEpdf Pro 6.3.0
+2018-08-09 18:39:55 INFO [IcePdfServiceImpl.java:176] - Capturing page 0
+2018-08-09 18:39:55 INFO [IcePdfServiceImpl.java:200] - Document disposed
+2018-08-09 18:39:55 INFO [IcePdfServiceImpl.java:129] - elapsed time: 0 秒
+2018-08-09 18:39:55 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:39:55 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:39:55 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:39:55 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:39:55 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:39:55 INFO [StartupInfoLogger.java:57] - Started App in 2.526 seconds (JVM running for 2.985)
+2018-08-09 18:41:04 INFO [AbstractApplicationContext.java:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b0ade15: startup date [Thu Aug 09 18:39:52 CST 2018]; root of context hierarchy
+2018-08-09 18:41:04 INFO [MBeanExporter.java:449] - Unregistering JMX-exposed beans on shutdown
+2018-08-09 18:41:04 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 4052 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:41:04 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:41:04 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52bfe968: startup date [Thu Aug 09 18:41:04 CST 2018]; root of context hierarchy
+2018-08-09 18:41:04 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:41:04 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:41:04 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:41:04 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:41:04 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 261 ms
+2018-08-09 18:41:04 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:41:04 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:41:04 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:41:04 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:41:04 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:41:04 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:41:05 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52bfe968: startup date [Thu Aug 09 18:41:04 CST 2018]; root of context hierarchy
+2018-08-09 18:41:05 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:41:05 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:41:05 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:41:05 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:41:05 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:41:05 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:41:05 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:41:05 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:41:05 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:41:05 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:41:05 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:41:05 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:41:05 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:41:05 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:41:05 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:41:05 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:41:05 INFO [StartupInfoLogger.java:57] - Started App in 0.578 seconds (JVM running for 72.862)
+2018-08-09 18:41:08 INFO [AbstractApplicationContext.java:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52bfe968: startup date [Thu Aug 09 18:41:04 CST 2018]; root of context hierarchy
+2018-08-09 18:41:08 INFO [MBeanExporter.java:449] - Unregistering JMX-exposed beans on shutdown
+2018-08-09 18:41:08 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 4052 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:41:08 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:41:08 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b157b81: startup date [Thu Aug 09 18:41:08 CST 2018]; root of context hierarchy
+2018-08-09 18:41:19 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 7972 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:41:19 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:41:19 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:41:19 CST 2018]; root of context hierarchy
+2018-08-09 18:41:20 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:41:20 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:41:20 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:41:20 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:41:20 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:41:20 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1086 ms
+2018-08-09 18:41:21 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:41:21 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:41:21 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:41:21 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:41:21 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:41:21 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:41:21 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:41:19 CST 2018]; root of context hierarchy
+2018-08-09 18:41:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:41:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:41:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:41:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:41:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:41:21 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:41:21 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:41:21 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:41:21 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:41:21 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:41:21 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:41:21 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:41:21 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:41:21 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:41:21 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:41:21 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:41:21 INFO [StartupInfoLogger.java:57] - Started App in 2.001 seconds (JVM running for 2.468)
+2018-08-09 18:42:09 INFO [AbstractApplicationContext.java:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:41:19 CST 2018]; root of context hierarchy
+2018-08-09 18:42:09 INFO [MBeanExporter.java:449] - Unregistering JMX-exposed beans on shutdown
+2018-08-09 18:42:09 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 7972 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:42:09 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:42:09 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b0edf1d: startup date [Thu Aug 09 18:42:09 CST 2018]; root of context hierarchy
+2018-08-09 18:42:09 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:42:09 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:42:09 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:42:09 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:42:09 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 249 ms
+2018-08-09 18:42:09 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:42:09 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:42:09 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:42:09 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:42:09 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:42:09 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:42:09 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b0edf1d: startup date [Thu Aug 09 18:42:09 CST 2018]; root of context hierarchy
+2018-08-09 18:42:09 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:42:09 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:42:09 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:42:09 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:42:09 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:42:10 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:42:10 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:42:10 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:42:10 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:42:10 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:42:10 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:42:10 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:42:10 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:42:10 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:42:10 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:42:10 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:42:10 INFO [StartupInfoLogger.java:57] - Started App in 0.587 seconds (JVM running for 50.867)
+2018-08-09 18:42:39 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 8268 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:42:39 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:42:39 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:42:39 CST 2018]; root of context hierarchy
+2018-08-09 18:42:39 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:42:40 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:42:40 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:42:40 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:42:40 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:42:40 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1092 ms
+2018-08-09 18:42:40 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:42:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:42:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:42:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:42:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:42:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:42:41 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:42:39 CST 2018]; root of context hierarchy
+2018-08-09 18:42:41 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:42:41 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:42:41 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:42:41 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:42:41 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:42:41 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:42:41 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:42:41 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:42:41 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:42:41 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:42:41 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:42:41 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:42:41 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:42:41 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:42:41 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:42:41 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:42:41 INFO [StartupInfoLogger.java:57] - Started App in 2.027 seconds (JVM running for 2.489)
+2018-08-09 18:43:19 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 6872 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:43:19 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:43:19 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:43:19 CST 2018]; root of context hierarchy
+2018-08-09 18:43:19 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:43:20 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:43:20 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:43:20 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:43:20 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:43:20 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1068 ms
+2018-08-09 18:43:20 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:43:20 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:43:20 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:43:20 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:43:20 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:43:20 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:43:21 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:43:19 CST 2018]; root of context hierarchy
+2018-08-09 18:43:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:43:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:43:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:43:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:43:21 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:43:21 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:43:21 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:43:21 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:43:21 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:43:21 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:43:21 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:43:21 INFO [AppStartup.java:29] - 容器加载成功！
+2018-08-09 18:43:21 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:43:21 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:43:21 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:43:21 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:43:21 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:43:21 INFO [StartupInfoLogger.java:57] - Started App in 1.969 seconds (JVM running for 2.445)
+2018-08-09 18:44:38 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 2864 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:44:38 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:44:39 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:44:39 CST 2018]; root of context hierarchy
+2018-08-09 18:44:39 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:44:40 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:44:40 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:44:40 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:44:40 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:44:40 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1110 ms
+2018-08-09 18:44:40 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:44:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:44:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:44:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:44:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:44:40 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:44:40 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@a3acdab: startup date [Thu Aug 09 18:44:39 CST 2018]; root of context hierarchy
+2018-08-09 18:44:40 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:44:40 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:44:40 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:44:40 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:44:40 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:44:40 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:44:40 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:44:40 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:44:40 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:44:40 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:44:40 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:44:40 INFO [AppStartup.java:29] - 容器加载成功！
+2018-08-09 18:44:40 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:44:40 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:44:40 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:44:40 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:44:40 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:44:40 INFO [StartupInfoLogger.java:57] - Started App in 2.022 seconds (JVM running for 2.489)
+2018-08-09 18:45:15 INFO [DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-09 18:45:15 INFO [FrameworkServlet.java:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-09 18:45:15 INFO [FrameworkServlet.java:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-08-09 18:45:15 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-09 18:45:15 INFO [WebLogAspect.java:39] - 请求url : http://localhost:18088/pdf/icePdfToImage
+2018-08-09 18:45:15 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-09 18:45:15 INFO [TranslateController.java:70] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-09 18:45:15 INFO [null:-1] - ICEsoft ICEpdf Core @version@-@type@
+2018-08-09 18:45:15 INFO [null:-1] - ICEsoft ICEpdf Pro 6.3.0
+2018-08-09 18:45:15 INFO [IcePdfServiceImpl.java:177] - Capturing page 1
+2018-08-09 18:45:15 INFO [IcePdfServiceImpl.java:177] - Capturing page 0
+2018-08-09 18:45:15 INFO [IcePdfServiceImpl.java:177] - Capturing page 2
+2018-08-09 18:45:16 INFO [IcePdfServiceImpl.java:201] - Document disposed
+2018-08-09 18:45:16 INFO [IcePdfServiceImpl.java:130] - elapsed time: 0 秒
+2018-08-09 18:45:16 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/13d7659d-e7db-4991-9578-8a80548cbee4","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-09 18:45:16 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
+2018-08-09 18:46:50 INFO [StartupInfoLogger.java:48] - Starting App on 67HPVWAC34TTED3 with PID 8532 (F:\javaProject\pdf\target\classes started by Administrator in F:\javaProject\pdf)
+2018-08-09 18:46:50 INFO [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-08-09 18:46:50 INFO [AbstractApplicationContext.java:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccad925: startup date [Thu Aug 09 18:46:50 CST 2018]; root of context hierarchy
+2018-08-09 18:46:50 INFO [Version.java:30] - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-09 18:46:51 INFO [TomcatEmbeddedServletContainer.java:89] - Tomcat initialized with port(s): 18088 (http)
+2018-08-09 18:46:51 INFO [DirectJDKLog.java:179] - Starting service [Tomcat]
+2018-08-09 18:46:51 INFO [DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-08-09 18:46:51 INFO [DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2018-08-09 18:46:51 INFO [EmbeddedWebApplicationContext.java:276] - Root WebApplicationContext: initialization completed in 1086 ms
+2018-08-09 18:46:51 INFO [ServletRegistrationBean.java:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-09 18:46:51 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-09 18:46:51 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-09 18:46:51 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-09 18:46:51 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-09 18:46:51 INFO [AbstractFilterRegistrationBean.java:258] - Mapping filter: 'myCORSFilter' to: [/*]
+2018-08-09 18:46:52 INFO [RequestMappingHandlerAdapter.java:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccad925: startup date [Thu Aug 09 18:46:50 CST 2018]; root of context hierarchy
+2018-08-09 18:46:52 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/clear],methods=[GET],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.clear(javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:46:52 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/pdfBoxToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.pdfBoxToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:46:52 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/pdf/icePdfToImage],methods=[POST],produces=[application/json;charset=utf-8]}" onto public java.lang.Object cn.aimengmeng.tool.pdf.controller.TranslateController.icePdfToImage(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-08-09 18:46:52 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-09 18:46:52 INFO [AbstractHandlerMethodMapping.java:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-09 18:46:52 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:46:52 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:46:52 INFO [ExceptionHandlerExceptionResolver.java:273] - Detected @ExceptionHandler methods in serverErrorController
+2018-08-09 18:46:52 INFO [AbstractUrlHandlerMapping.java:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-09 18:46:52 INFO [OptionalLiveReloadServer.java:58] - LiveReload server is running on port 35729
+2018-08-09 18:46:52 INFO [MBeanExporter.java:431] - Registering beans for JMX exposure on startup
+2018-08-09 18:46:52 INFO [ScheduledAnnotationBeanPostProcessor.java:267] - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-09 18:46:52 INFO [DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:46:52 INFO [DirectJDKLog.java:179] - Starting ProtocolHandler ["http-nio-18088"]
+2018-08-09 18:46:52 INFO [DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2018-08-09 18:46:52 INFO [TomcatEmbeddedServletContainer.java:201] - Tomcat started on port(s): 18088 (http)
+2018-08-09 18:46:52 INFO [StartupInfoLogger.java:57] - Started App in 2.006 seconds (JVM running for 2.466)
+2018-08-09 18:47:01 INFO [DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-09 18:47:01 INFO [FrameworkServlet.java:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-09 18:47:01 INFO [FrameworkServlet.java:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-08-09 18:47:01 INFO [WebLogAspect.java:37] - ************************请求开始*******************************
+2018-08-09 18:47:01 INFO [WebLogAspect.java:39] - 请求url : http://localhost:18088/pdf/pdfBoxToImage
+2018-08-09 18:47:01 INFO [WebLogAspect.java:41] - 请求方法 : POST
+2018-08-09 18:47:01 INFO [TranslateController.java:99] - File MD5:172121988e416c8829e91a0d286da666
+2018-08-09 18:47:02 INFO [PdfBoxServiceImpl.java:114] - Capturing page 0
+2018-08-09 18:47:02 INFO [PdfBoxServiceImpl.java:114] - Capturing page 1
+2018-08-09 18:47:02 INFO [PdfBoxServiceImpl.java:114] - Capturing page 2
+2018-08-09 18:47:02 INFO [PdfBoxServiceImpl.java:138] - Document disposed
+2018-08-09 18:47:02 INFO [PdfBoxServiceImpl.java:86] - 耗时: 0 s
+2018-08-09 18:47:02 INFO [WebLogAspect.java:59] - 返回 : {"path":"pdfToImage/4bcee2f4-812e-428c-ad1d-efb161a23720","fileName":"test.pdf","pages":["0.png","1.png","2.png"],"host":"http://127.0.0.1:18088"}
+2018-08-09 18:47:02 INFO [WebLogAspect.java:60] - ************************请求结束*******************************
